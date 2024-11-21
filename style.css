@@ -35,6 +35,15 @@ Body {
             display: flex;
 
         }
+        .LogoIMG {
+            display: block;
+            max-width: 12%;
+            max-height: auto;
+            display: flex;
+            margin: -10px;
+            margin-right: 5px;
+        
+        }
 
 
         .links{
@@ -131,6 +140,7 @@ Body {
             width: 170px;
             height: 170px;
             border: 5px solid #275527;
+            border-radius: 20px;
             overflow: hidden; 
             margin-bottom: 10px;
         }
@@ -170,3 +180,30 @@ Body {
             color:black;
         }
 
+.BOX3 {
+background-color: lightgray;
+padding: 150px 0;
+
+}   
+    .BOX3 .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+    }
+        #quote {
+           font-size: 36px;
+            color: #275527;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #The-Founder-Eren {
+            align-self: flex-end;
+            text-align: right;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+            margin:20px;
+        }
